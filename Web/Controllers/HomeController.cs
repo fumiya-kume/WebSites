@@ -27,6 +27,11 @@ namespace Web.Controllers
             return View();
         }
 
+        public IActionResult Store()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
